@@ -1,10 +1,11 @@
+#creating dictionary
 students = {} 
- 
+#creating function
 def add_student(): 
     roll = input("Enter roll number: ") 
     name = input("Enter name: ") 
-    marks = input("Enter marks: ") 
-    students[roll] = {"name": name, "marks": marks} 
+    marks = input("Enter marks: ")
+    students[roll] = {"name": name, "marks": marks}
  
 def view_students(): 
     for roll, info in students.items(): 
